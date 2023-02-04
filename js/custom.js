@@ -1,10 +1,10 @@
 $(function () {
     /* Include html files */
-    $(".gnb-include").load("/include/gnb.html")
+    $(".gnb-include").load("../include/gnb.html")
 
-    $(".main-header-include").load("/include/main-header.html")
+    $(".main-header-include").load("../include/main-header.html")
 
-    $(".goods-detail-header-include").load("/include/goods-detail-header.html")
+    $(".goods-detail-header-include").load("../include/goods-detail-header.html")
 
     /* Category Accordion */
     $(".category-accordion .detail").eq(0).show()
